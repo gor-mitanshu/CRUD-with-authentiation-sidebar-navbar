@@ -1,0 +1,86 @@
+.form-input-wrapper {
+  border-bottom: 2px solid rgb(183, 183, 183)!important;
+  padding: 4px 12px;
+  margin-bottom: 32px;
+  position: relative;
+  transition: 0.4s;
+}
+
+.form-input-wrapper:focus-within {
+  transition: 0.4s;
+  border-color: #1e002f;
+}
+
+.prefix-icon {
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.postfix-icon {
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+input.form-input,
+textarea.form-input,
+select.form-input {
+  background: transparent;
+  border: none !important;
+  color: black;
+  padding: 2px 18px;
+  margin-bottom: 2px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.error-form-input {
+  border-color: #ba1a1a !important;
+}
+
+.input-error {
+  margin-top: -32px;
+  min-height: 32px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #ba1a1a;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+}
+
+.no-focus-box-shadow:focus {
+  box-shadow: none !important;
+  border-color: #1e002f !important;
+}
+
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.btn {
+  border-radius: 4px !important;
+}
+
+/* .btn-primary {
+  background: #117283 !important;
+}
+
+.btn-outline-primary{
+  border: 1px solid #117283 !important;
+  color: #117283 !important;
+}
+
+.btn-outline-primary:hover{
+  color: #fff !important;
+background: #117283 !important;
+} */
